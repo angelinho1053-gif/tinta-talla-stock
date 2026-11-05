@@ -7,9 +7,6 @@ on:
     branches:
       - principal
 
-permissions:
-  contents: read
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -28,4 +25,3 @@ jobs:
         with:
           name: tinta-talla-stock-apk
           path: build/app/outputs/flutter-apk/app-release.apk
-
